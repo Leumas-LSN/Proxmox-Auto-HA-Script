@@ -35,9 +35,9 @@ Le système utilise des **tags Proxmox** simples pour déterminer automatiquemen
 Téléchargez l’installateur :
 
 ```bash
-wget https://raw.githubusercontent.com/<votre-repo>/install_auto_ha.sh
-chmod +x install_auto_ha.sh
-./install_auto_ha.sh
+wget https://raw.githubusercontent.com/LeumasTV/Proxmox-Auto-HA-Script/refs/heads/main/auto_ha_vm_lxc_installer.sh
+chmod +x auto_ha_vm_lxc_installer.sh
+./auto_ha_vm_lxc_installer.sh
 ```
 
 L’installateur vous proposera :
@@ -95,7 +95,7 @@ La ligne CRON ressemble à :
 Relancez simplement :
 
 ```bash
-./install_auto_ha.sh
+./auto_ha_vm_lxc_installer.sh
 ```
 
 Puis sélectionnez :
@@ -117,7 +117,7 @@ Cela supprimera :
 ```
 /root/scripts/
 │── auto_add_ha_silent.sh      # Script HA silencieux
-└── install_auto_ha.sh         # Installateur / Désinstallateur auto-copié
+└── auto_ha_vm_lxc_installer.sh         # Installateur / Désinstallateur auto-copié
 ```
 
 ---
