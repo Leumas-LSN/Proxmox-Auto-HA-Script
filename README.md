@@ -35,7 +35,7 @@ Le système utilise des **tags Proxmox** simples pour déterminer automatiquemen
 Téléchargez l’installateur :
 
 ```bash
-wget https://raw.githubusercontent.com/LeumasTV/Proxmox-Auto-HA-Script/refs/heads/main/auto_ha_vm_lxc_installer.sh
+wget https://raw.githubusercontent.com/Leumas-LSN/Proxmox-Auto-HA-Script/refs/heads/main/auto_ha_vm_lxc_installer.sh
 chmod +x auto_ha_vm_lxc_installer.sh
 ./auto_ha_vm_lxc_installer.sh
 ```
