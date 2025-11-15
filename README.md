@@ -124,7 +124,7 @@ Cela supprimera :
 
 ## 🧪 Tests actuels
 
-- Testé sur Proxmox VE 8.x en environnement de lab
+- Testé sur Proxmox VE 9.x en environnement de lab
 - Non encore validé en cluster de production
 
 Vos retours sont les bienvenus pour améliorer la fiabilité du projet.
