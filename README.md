@@ -15,7 +15,7 @@ Le système utilise des **tags Proxmox** simples pour déterminer automatiquemen
   - `No-HA` → La VM/LXC est ignorée (jamais ajoutée à la HA)  
   - `archive` → La VM/LXC est automatiquement **retirée** de la HA  
 - ⚙️ Configuration automatique d’une tâche CRON (15 min / 1h / 24h)  
-- 📁 Installation propre dans `/root/scripts/`  
+- 📁 Installation dans `/root/scripts/`  
 - 🧹 Désinstallation complète via le même installateur  
 - 🚀 Exécution automatique et silencieuse, sans output inutile  
 - 🖥️ Compatible Proxmox VE 7.x / 8.x / 9.x
